@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+    {% block content %}
+    <table>
+        <tbody>
+            <th><ul>Name </ul></th>
+            <th> <ul>Phone no</ul></th>
+            <th> <ul>Message</ul></th>
+           
+           
+        </tbody>
+        {% for person in persons %}
+        <tr>
+            <td> <ul>{{ person.name }}</ul> </td>            
+            <td> <ul>{{ person.mobile }}</ul> </td>
+            <td> <ul>{{ person.text }}</ul> </td>
+            
+        </tr>
+        {% endfor %}
+    {% endblock content %}
