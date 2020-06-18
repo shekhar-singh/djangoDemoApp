@@ -1,4 +1,4 @@
 # djangoDemoApp
 
 
-live : https://25c77d0c2ac0.ngrok.io/
+live :  https://4a80f71581f6.ngrok.io
